@@ -47,8 +47,11 @@ if(fullPrice>50000) {
 
 
 //2.4 function
-let allServicePrices = function (){
+let allServicePrices;
+
+const getAllServicePrices = function(){
     return servicePrice + serviceSecond
+
 }
 
 allServicePrices = getAllServicePrices()
